@@ -1,0 +1,6 @@
+void main(){
+ if (sqrt(2) > 0)
+  Write("Ploxo");
+ if (sin(5) > 0.5)
+  Write("Xorosho ifelse");
+}

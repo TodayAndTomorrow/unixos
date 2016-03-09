@@ -1,0 +1,6 @@
+double sin(ar:double){
+ double res = 0;
+ if (sqrt(3) > 1)
+  Write("Ploxo");
+ return res;
+}

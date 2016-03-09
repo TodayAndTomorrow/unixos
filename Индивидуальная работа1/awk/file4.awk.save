@@ -1,0 +1,13 @@
+BEGIN{
+ 
+}
+END{
+ masFn[FILENAME]=FILENAME;
+ for(i in masFn){  
+  print masFn[i];
+  split(masFn[i],mas,"_");
+  for(i in mas){
+    print i":"mas[i];
+  }
+ }
+}
